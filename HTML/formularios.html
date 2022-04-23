@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+<!--para proteger los datos se añade metho="POST"-->
+    <form action="">
+        <label for="nombre"> Nombre: </label>
+        <input type="text">
+        
+        <br><br>
+        <label for="numero"> Número: </label>
+        <!--place holder es texto en el formulario-->
+        <input type="number" name="numero" id="numero" placeholder="Ingrese número">
+
+        <br><br>
+        <label for="email"> Email: </label>
+        <input type="email" name="email" id="email" value="Sergio@correo.com">
+        
+        <br><br>
+        <label for="pass"> Contraseña:: </label>
+        <!--<input type="password" name="pass" id="pass" readonly, disabled, size="100", required>-->
+        <!--Ahorita mismo con autofocues el puntero va a este campo automatico-->
+        <input type="password" name="pass" id="pass" autofocus>
+
+        <br><br>
+        <!--Este es un boton-->
+        <input type="submit" name="enviar" id="enviar">
+    </form>
+    
+</body>
+</html>

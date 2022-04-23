@@ -1,0 +1,22 @@
+h1{
+    color:red; 
+    font-size: 24px;
+    /*alinearlo en el centro*/
+    text-align: center;
+}
+/*selector universal*/
+*{
+    color:blue;
+}
+.p1{
+    color:green;
+    font-size: 9px;
+}
+.p2{
+    color:purple;
+    font-size: 24px;
+}
+#suptitulo{
+    color:cornflowerblue;
+    font-size: 24px;
+}
